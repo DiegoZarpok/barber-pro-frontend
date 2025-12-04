@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Agendamento de Serviços</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="titulo">Agendamento de Serviços</h1>
+
+    <div class="container">
+
+        <label>Escolha o serviço:</label>
+        <select id="servico">
+            <option value="" data-valor="0">Selecione...</option>
+            <option value="Corte Social" data-valor="30">Corte Social - R$30</option>
+            <option value="Corte Degradê" data-valor="35">Corte Degradê - R$35</option>
+            <option value="Cabelo e Barba" data-valor="50">Cabelo e Barba - R$50</option>
+            <option value="Barba" data-valor="15">Barba - R$15</option>
+            <option value="Pezinho" data-valor="10">Pezinho - R$10</option>
+            <option value="Hidratação" data-valor="50">Hidratação - R$50</option>
+        </select>
+
+        <label>Seu nome:</label>
+        <input type="text" id="nome">
+
+        <label>Escolha a data:</label>
+        <input type="date" id="data">
+
+        <label>Horário:</label>
+        <select id="horario"></select>
+
+        <button id="agendarBtn" onclick="agendar()">AGENDAR</button>
+
+    </div>
+
+    <h2 class="subtitulo">Agendamentos do Dia</h2>
+
+    <div id="lista"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
