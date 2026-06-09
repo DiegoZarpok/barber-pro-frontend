@@ -2,6 +2,10 @@
 
 Este é o projeto frontend da barbearia Barber Pro — desenvolvido com HTML e CSS puro.
 
+Link
+
+* Deploy:https://diegozarpok.github.io/barber-pro-frontend/
+
 ## 🚀 Funcionalidades
 
 - Página institucional
